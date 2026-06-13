@@ -3,7 +3,7 @@ from yt_dlp import YoutubeDL
 from telegram import Update
 from telegram.ext import Application, MessageHandler, ContextTypes, filters
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("8924348360:AAFA5IaNEbiaemwDZDPb3Zfvo2uIwSDHKPg")
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = update.message.text
